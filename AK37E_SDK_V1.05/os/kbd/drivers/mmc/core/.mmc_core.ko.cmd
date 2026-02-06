@@ -1,0 +1,1 @@
+cmd_drivers/mmc/core/mmc_core.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/mmc/core/mmc_core.ko drivers/mmc/core/mmc_core.o drivers/mmc/core/mmc_core.mod.o

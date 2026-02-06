@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/gyro/built-in.o :=  rm -f drivers/staging/iio/gyro/built-in.o; /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar rcsD drivers/staging/iio/gyro/built-in.o

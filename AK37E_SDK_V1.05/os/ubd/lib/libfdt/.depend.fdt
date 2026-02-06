@@ -1,0 +1,34 @@
+/home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/lib/libfdt/fdt.o: \
+ fdt.c \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/libfdt_env.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/compiler.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stddef.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/string.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/config.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/posix_types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/stddef.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/posix_types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/types.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/string.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include/config.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/config_cmd_defaults.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/config_defaults.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/configs/anycloud_ak37e.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/configs/ak_board.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/config.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/config_fallbacks.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/config_uncmd_spl.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/linux_string.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/byteorder.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/byteorder/little_endian.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/compiler.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/compiler-gcc.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/compiler-gcc4.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/byteorder/swab.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/byteorder/generic.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/fdt.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/libfdt.h \
+ libfdt_internal.h

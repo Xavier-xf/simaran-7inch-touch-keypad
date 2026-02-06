@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/pppoe.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/net/ppp/pppoe.ko drivers/net/ppp/pppoe.o drivers/net/ppp/pppoe.mod.o

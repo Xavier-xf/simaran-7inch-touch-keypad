@@ -1,0 +1,1 @@
+cmd_net/mac80211/mac80211.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o net/mac80211/mac80211.ko net/mac80211/mac80211.o net/mac80211/mac80211.mod.o

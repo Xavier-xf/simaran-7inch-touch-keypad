@@ -1,0 +1,1 @@
+cmd_fs/lockd/lockd.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o fs/lockd/lockd.ko fs/lockd/lockd.o fs/lockd/lockd.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8188eu/r8188eu.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/staging/rtl8188eu/r8188eu.ko drivers/staging/rtl8188eu/r8188eu.o drivers/staging/rtl8188eu/r8188eu.mod.o

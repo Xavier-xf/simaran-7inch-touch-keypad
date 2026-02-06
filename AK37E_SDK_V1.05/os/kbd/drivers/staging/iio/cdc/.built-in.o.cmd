@@ -1,0 +1,1 @@
+cmd_drivers/staging/iio/cdc/built-in.o :=  rm -f drivers/staging/iio/cdc/built-in.o; /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar rcsD drivers/staging/iio/cdc/built-in.o

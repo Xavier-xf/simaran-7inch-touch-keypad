@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "functional": "c",
+        "sstream": "c",
+        "regex": "c",
+        "ts_gsl3692.h": "c"
+    }
+}

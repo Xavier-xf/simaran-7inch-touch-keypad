@@ -1,0 +1,27 @@
+# 一键编译就使用脚本 auto_build.sh
+./auto_build.sh
+
+
+# 单步编译就按下面步骤进行
+# 编译uboot
+cd os/uboot/
+./uboot_build.sh
+cd -
+# 编译内核
+cd os/kernel/
+./kernel_build.sh
+cd -
+# 制作分区表
+cd tools/envtool/
+./build.sh
+cd -
+# 编译文件系统 并 打包成升级包：upgrade/SAT_TABAOS
+cd upgrade
+./make_image.sh
+cd -
+# 删除旧的usb烧录文件
+echo "rm -rf tools/burntool/platform"
+rm -rf tools/burntool/platform
+# 把新的usb烧录文件拷贝到tools/burntool
+echo "cp -rf upgrade/platform tools/burntool/"
+cp -rf upgrade/platform tools/burntool/

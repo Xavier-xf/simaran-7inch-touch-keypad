@@ -1,0 +1,1 @@
+cmd_drivers/video/fbdev/omap2/displays-new/built-in.o :=  rm -f drivers/video/fbdev/omap2/displays-new/built-in.o; /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar rcsD drivers/video/fbdev/omap2/displays-new/built-in.o

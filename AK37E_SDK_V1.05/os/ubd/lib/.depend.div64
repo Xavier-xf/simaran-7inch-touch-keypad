@@ -1,0 +1,9 @@
+/home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/lib/div64.o: \
+ div64.c \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/config.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/posix_types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/uboot/include/linux/stddef.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/posix_types.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/types.h \
+ /opt/arm-anykav500-linux-uclibcgnueabi/lib/gcc/arm-anykav500-linux-uclibcgnueabi/4.9.4/include/stdbool.h

@@ -1,0 +1,1 @@
+cmd_fs/nfs_common/grace.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o fs/nfs_common/grace.ko fs/nfs_common/grace.o fs/nfs_common/grace.mod.o

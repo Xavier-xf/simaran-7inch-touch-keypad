@@ -1,0 +1,87 @@
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:25:34
+
+ss g_udisk_burnnum: 0
+[09:25:34]work number = 1
+[09:25:34]burn_mode = 1, eMedium = 1
+[09:25:34]++Start download producer++
+producer path: producer_39xx.bin, addr=80000000
+[09:26:16]burn_spiflash fail.
+[09:26:16]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:26:17
+
+ss g_udisk_burnnum: 0
+[09:26:17]work number = 1
+[09:26:17]burn_mode = 1, eMedium = 1
+[09:26:17]Burn_GetRegValue fail
+[09:26:17]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:26:40
+
+ss g_udisk_burnnum: 0
+[09:26:40]work number = 1
+[09:26:40]burn_mode = 1, eMedium = 1
+[09:26:40]Burn_GetRegValue fail
+[09:26:40]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:26:47
+
+ss g_udisk_burnnum: 0
+[09:26:47]work number = 1
+[09:26:47]burn_mode = 1, eMedium = 1
+[09:26:47]++Start download producer++
+producer path: producer_39xx.bin, addr=80000000
+[09:26:48]burn_spiflash fail.
+[09:26:48]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:26:59
+
+ss g_udisk_burnnum: 0
+[09:26:59]work number = 1
+[09:26:59]burn_mode = 1, eMedium = 1
+[09:26:59]Burn_SetRamParam fail
+[09:26:59]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 09:27:12
+
+ss g_udisk_burnnum: 0
+[09:27:12]work number = 1
+[09:27:12]burn_mode = 1, eMedium = 1
+[09:27:12]++Start download producer++
+producer path: producer_39xx.bin, addr=80000000
+[09:28:33]end work number = 0
+[09:28:33]++Burn success++
+[09:28:33]close file
+
+
+
+=============Burn Information For Channel[1]=============
+Print Time: 2023-8-5 16:19:15
+
+ss g_udisk_burnnum: 0
+[16:19:15]work number = 1
+[16:19:15]burn_mode = 1, eMedium = 1
+[16:19:15]++Start download producer++
+producer path: producer_39xx.bin, addr=80000000
+[16:20:32]end work number = 0
+[16:20:32]++Burn success++
+[16:20:32]close file
+
+
+

@@ -1,0 +1,5 @@
+tjpgd.c:130:14:alloc_pool	0	static
+tjpgd.c:255:12:bitext	32	static
+tjpgd.c:321:16:huffext	40	static
+tjpgd.c:840:9:jd_prepare	56	static
+tjpgd.c:1033:9:jd_decomp	104	static

@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/udc/udc-core.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/usb/gadget/udc/udc-core.ko drivers/usb/gadget/udc/udc-core.o drivers/usb/gadget/udc/udc-core.mod.o

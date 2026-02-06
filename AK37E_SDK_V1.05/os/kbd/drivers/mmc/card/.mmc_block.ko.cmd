@@ -1,0 +1,1 @@
+cmd_drivers/mmc/card/mmc_block.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/mmc/card/mmc_block.ko drivers/mmc/card/mmc_block.o drivers/mmc/card/mmc_block.mod.o

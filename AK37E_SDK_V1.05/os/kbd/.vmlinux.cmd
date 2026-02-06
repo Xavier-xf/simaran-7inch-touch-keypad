@@ -1,0 +1,1 @@
+cmd_vmlinux := /bin/bash /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/link-vmlinux.sh /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL  -p --no-undefined -X --pic-veneer --build-id

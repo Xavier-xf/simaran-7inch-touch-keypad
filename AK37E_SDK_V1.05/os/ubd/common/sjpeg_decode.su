@@ -1,0 +1,3 @@
+sjpeg_decode.c:52:12:img_data_cb	32	static
+sjpeg_decode.c:19:15:input_func	16	static
+sjpeg_decode.c:73:5:uboot_logo_sjpg_decode	160	static

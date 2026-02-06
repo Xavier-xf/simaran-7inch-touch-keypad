@@ -1,0 +1,5 @@
+/home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/arch/arm/cpu/arm926ejs/ak37e/ak_early_serial.o: \
+ ak_early_serial.c \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/arch-ak37e/ak_cpu.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/arch-ak37e/ak_l2buf.h \
+ /home/xiaoxiao/workspace/EP-Linux/AK37E_SDK_V1.05/os/ubd/include2/asm/arch-ak37e/ak_types.h

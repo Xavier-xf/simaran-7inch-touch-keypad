@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/legacy/g_mass_storage.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o drivers/usb/gadget/legacy/g_mass_storage.ko drivers/usb/gadget/legacy/g_mass_storage.o drivers/usb/gadget/legacy/g_mass_storage.mod.o

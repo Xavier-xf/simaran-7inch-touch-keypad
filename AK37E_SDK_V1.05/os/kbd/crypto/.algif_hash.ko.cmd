@@ -1,0 +1,1 @@
+cmd_crypto/algif_hash.ko := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL -r  -T /home/xiaoxiao/workspace/SIMARAN/AK37E_SDK_V1.05/os/kernel/scripts/module-common.lds --build-id  -o crypto/algif_hash.ko crypto/algif_hash.o crypto/algif_hash.mod.o

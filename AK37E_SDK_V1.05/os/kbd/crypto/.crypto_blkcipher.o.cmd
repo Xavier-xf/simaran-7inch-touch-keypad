@@ -1,0 +1,1 @@
+cmd_crypto/crypto_blkcipher.o := /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL    -r -o crypto/crypto_blkcipher.o crypto/ablkcipher.o crypto/blkcipher.o crypto/skcipher.o 

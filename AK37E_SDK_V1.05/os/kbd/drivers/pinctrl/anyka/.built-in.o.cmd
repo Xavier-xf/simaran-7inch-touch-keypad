@@ -1,0 +1,1 @@
+cmd_drivers/pinctrl/anyka/built-in.o :=  /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ld -EL    -r -o drivers/pinctrl/anyka/built-in.o drivers/pinctrl/anyka/ak_37e_pinctrl.o 

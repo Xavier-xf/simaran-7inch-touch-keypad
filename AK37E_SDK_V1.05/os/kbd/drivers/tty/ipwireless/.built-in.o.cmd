@@ -1,0 +1,1 @@
+cmd_drivers/tty/ipwireless/built-in.o :=  rm -f drivers/tty/ipwireless/built-in.o; /opt/arm-anykav500-linux-uclibcgnueabi/bin/arm-anykav500-linux-uclibcgnueabi-ar rcsD drivers/tty/ipwireless/built-in.o
