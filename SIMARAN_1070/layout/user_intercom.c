@@ -96,6 +96,9 @@ static bool intercom_uart_check_sum(char *buf)
 	unsigned char checknum = (recv_info.send_id + recv_info.recv_id + recv_info.cmd + recv_info.state) & 0xFF;
 	// printf("===========>>> send_id:[%d] recv_id:[%d] \n", send_id, recv_id);
 
+    printf("[DEBUG] UART RX: start=0x%02X send_id=%d recv_id=%d cmd=%d state=%d checksum=0x%02X stop=0x%02X\n",
+           buf[0], recv_info.send_id, recv_info.recv_id, recv_info.cmd, recv_info.state, buf[6], buf[8]);
+
 	if (checknum != buf[6]) // 和检验错误
 	{
 		printf("checksum error : check number error \n\r");
@@ -103,6 +106,12 @@ static bool intercom_uart_check_sum(char *buf)
 	}
 	else if (recv_info.cmd == CMD_INTERPHONE_BUSY_CHECK) // 忙检测命令
 	{
+		if (recv_info.send_id == OwnID) // RS485自回环/同房号伙伴，不处理
+		{
+			return false;
+		}
+		printf("DEBUG: intercom_state = %d, intercom_call_in_flag = %d, intercom_line_is_busy = %d\n",
+           intercom_state, intercom_call_in_flag, intercom_line_is_busy);
 		if (intercom_state != INTERCOM_STATE_IDLE && intercom_call_in_flag == false && !intercom_line_is_busy) // 自己在占线中，返回Line Busy
 		{
 			if (((OwnID == GUARD_INTERCOM_NUMBER || intercom_number == GUARD_INTERCOM_NUMBER) &&
@@ -137,14 +146,14 @@ static bool intercom_uart_check_sum(char *buf)
 		}
 		return false;
 	}
-	else if (recv_info.cmd == CMD_INTERPHONE_LINE_BUSY && recv_info.recv_id == OwnID && intercom_state == INTERCOM_STATE_CALL) // 收到忙线命令
+	else if (recv_info.cmd == CMD_INTERPHONE_LINE_BUSY && recv_info.recv_id == OwnID && recv_info.send_id != OwnID && intercom_state == INTERCOM_STATE_CALL) // 收到忙线命令
 	{
 		intercom_line_is_busy = true;
 		intercom_state = INTERCOM_STATE_IDLE;
 		printf("================>>> line busy\n");
 		return false;
 	}
-	else if (recv_info.cmd == CMD_INTERPHONE_UNIT_BUSY && recv_info.recv_id == OwnID && intercom_state == INTERCOM_STATE_CALL) // 收到单元忙命令
+	else if (recv_info.cmd == CMD_INTERPHONE_UNIT_BUSY && recv_info.recv_id == OwnID && recv_info.send_id != OwnID && intercom_state == INTERCOM_STATE_CALL) // 收到单元忙命令
 	{
 		intercom_unit_is_busy = true;
 		intercom_state = INTERCOM_STATE_IDLE;
@@ -196,6 +205,7 @@ static bool intercom_cmd_read(char *buffer)
 	{
 		return false;
 	}
+	printf("[DEBUG] UART READ: first byte=0x%02X (expect 0x%02X)\n", buffer[0], CODE_START);
 	if ((buffer[0] == CODE_START) && (uart_read(intercom_uart_fd, &buffer[1], 8) == 8))
 	{
 		if ((buffer[8] == CODE_STOP) && (intercom_uart_check_sum(&buffer[1]) == true))
